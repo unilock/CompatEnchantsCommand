@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "compatenchantscommand",
+  "version": "${version}",
+
+  "name": "Compatible Enchantments Command",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "unilock"
+  ],
+  "contact": {
+    "sources": "https://github.com/unilock/CompatEnchantsCommand"
+  },
+
+  "license": "MIT",
+  "icon": "assets/compatenchantscommand/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cc.unilock.compatenchantscommand.CompatEnchantsCommand"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": ">=1.19.2",
+    "java": ">=17"
+  }
+}
