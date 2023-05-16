@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Compatible Enchantments Command",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "/compatenchants <item>",
   "authors": [
     "unilock"
   ],

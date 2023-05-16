@@ -1,0 +1,7 @@
+{
+  "compatenchantscommand.item": "Item: %s",
+  "compatenchantscommand.current": "-- Current Enchantments --",
+  "compatenchantscommand.compatible": "-- Compatible Enchantments --",
+  "compatenchantscommand.incompatible": "-- Incompatible Enchantments --",
+  "compatenchantscommand.unenchantable": "\"%s\" cannot be enchanted"
+}
