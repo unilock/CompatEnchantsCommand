@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "MIT"
+
+#issueTrackerURL="https://github.com/unilock/CompatEnchantsCommandForge/issues"
+
+[[mods]]
+modId = "compatenchants"
+version = "${version}"
+displayName = "Compatible Enchantments Command (Forge)"
+# displayURL="https://github.com/unilock/CompatEnchantsCommandForge"
+# logoFile="icon.png"
+authors="unilock"
+description = '''
+/compatenchants <item>
+'''
+
+[[dependencies.compatenchants]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "CLIENT"
+
+# And another dependency, use this if you want to require a certain Minecraft version.
+[[dependencies.compatenchants]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "CLIENT"
