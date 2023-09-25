@@ -2,17 +2,17 @@ package cc.unilock.compatenchants.util;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.ItemStack;
-import net.minecraft.text.HoverEvent;
-import net.minecraft.text.MutableText;
-import net.minecraft.text.Text;
-import net.minecraft.text.Texts;
+import net.minecraft.text.*;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Language;
 
 public class TextUtils {
     public static Text getEnchantmentText(Enchantment enchantment) {
         // Get enchantment name (with max level appended, if present)
-        MutableText result = enchantment.getName(enchantment.getMaxLevel()).copy();
+		// (idk why 1.18.2 is so obtuse)
+        MutableText result = enchantment.getMaxLevel() == 1
+			? new TranslatableText(enchantment.getTranslationKey())
+			: new TranslatableText(enchantment.getTranslationKey()).append(" ").append(new TranslatableText("enchantment.level." + enchantment.getMaxLevel()));
 
         // Color the name depending on the enchantment type
         if (enchantment.isCursed()) {
@@ -26,14 +26,14 @@ public class TextUtils {
         // Show the enchantment description, if any, when hovering over the name
         // (same format as Enchantment Descriptions or idwtialsimmoedm)
         if (Language.getInstance().hasTranslation(enchantment.getTranslationKey() + ".desc")) {
-            result = result.styled(style -> style.withHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, Text.translatable(enchantment.getTranslationKey() + ".desc"))));
+            result = result.styled(style -> style.withHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new TranslatableText(enchantment.getTranslationKey() + ".desc"))));
         }
 
         return result;
     }
 
     public static Text getHoverableText(ItemStack stack) {
-        MutableText mutableText = Text.empty().append(stack.getName());
+        MutableText mutableText = new LiteralText("").append(stack.getName());
 
         return Texts.bracketed(mutableText)
                 .formatted(Formatting.AQUA)

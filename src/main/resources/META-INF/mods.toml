@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[43,)"
+loaderVersion = "[40,)"
 license = "MIT"
 
 #issueTrackerURL="https://github.com/unilock/CompatEnchantsCommandForge/issues"
@@ -18,7 +18,7 @@ description = '''
 [[dependencies.compatenchants]]
 modId = "forge"
 mandatory = true
-versionRange = "[43,)"
+versionRange = "[40,)"
 ordering = "NONE"
 side = "CLIENT"
 
@@ -26,6 +26,6 @@ side = "CLIENT"
 [[dependencies.compatenchants]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.2,)"
+versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "CLIENT"
