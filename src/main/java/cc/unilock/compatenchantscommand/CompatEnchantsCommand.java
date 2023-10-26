@@ -3,7 +3,7 @@ package cc.unilock.compatenchantscommand;
 import cc.unilock.compatenchantscommand.util.EnchantmentUtils;
 import cc.unilock.compatenchantscommand.util.TextUtils;
 import com.mojang.brigadier.CommandDispatcher;
-import net.fabricmc.api.ModInitializer;
+import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.minecraft.command.CommandRegistryAccess;
@@ -11,7 +11,7 @@ import net.minecraft.command.argument.ItemStackArgumentType;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.item.ItemStack;
-import net.minecraft.text.*;
+import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 
 import java.util.HashSet;
@@ -20,11 +20,11 @@ import java.util.Set;
 import static net.fabricmc.fabric.api.client.command.v2.ClientCommandManager.argument;
 import static net.fabricmc.fabric.api.client.command.v2.ClientCommandManager.literal;
 
-public class CompatEnchantsCommand implements ModInitializer {
+public class CompatEnchantsCommand implements ClientModInitializer {
 	//public static final Logger LOGGER = LoggerFactory.getLogger("CompatEnchantsCommand");
 
 	@Override
-	public void onInitialize() {
+	public void onInitializeClient() {
 		ClientCommandRegistrationCallback.EVENT.register(CompatEnchantsCommand::registerCommand);
 	}
 
