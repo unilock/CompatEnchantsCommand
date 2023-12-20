@@ -3,3 +3,231 @@ compatenchants.current=-- Current Enchantments --
 compatenchants.compatible=-- Compatible Enchantments --
 compatenchants.incompatible=-- Incompatible Enchantments --
 compatenchants.unenchantable="%1$s" cannot be enchanted
+
+# Minecraft
+# Protection
+enchantment.protect.all.desc=Reduces generic damage.
+# Fire Protection
+enchantment.protect.fire.desc=Reduces fire damage and burn time.
+# Feather Falling
+enchantment.protect.fall.desc=Reduces fall damage.
+# Blast Protection
+enchantment.protect.explosion.desc=Reduces explosion damage and knockback.
+# Projectile Protection
+enchantment.protect.projectile.desc=Reduces damage from projectiles.
+# Respiration
+enchantment.oxygen.desc=Extends underwater breathing time.
+# Aqua Affinity
+enchantment.waterWorker.desc=Increases underwater mining speed.
+# Thorns
+enchantment.thorns.desc=Taking damage causes the attacker to also take damage.
+# Sharpness
+enchantment.damage.all.desc=Increases melee damage.
+# Smite
+enchantment.damage.undead.desc=Increases damage to the undead.
+# Bane of Arthropods
+enchantment.damage.arthropods.desc=Increases damage and applies Slowness IV to arthropod mobs (spiders, cave spiders, and silverfish).
+# Knockback
+enchantment.knockback.desc=Increases knockback.
+# Fire Aspect
+enchantment.fire.desc=Sets target on fire.
+# Looting
+enchantment.lootBonus.desc=Increases mob loot.
+# Efficiency
+enchantment.digging.desc=Increases tool speed.
+# Silk Touch
+enchantment.untouching.desc=Mined blocks drop themselves.
+# Unbreaking
+enchantment.durability.desc=Reduces durability damage.
+# Fortune
+enchantment.lootBonusDigger.desc=Increases the amount of block drops.
+# Power
+enchantment.arrowDamage.desc=Increases arrow damage.
+# Punch
+enchantment.arrowKnockback.desc=Increases arrow knockback.
+# Flame
+enchantment.arrowFire.desc=Arrows shot are ignited and deal fire damage to the target.
+# Infinity
+enchantment.arrowInfinite.desc=Prevents consumption of arrows.
+# Luck of the Sea
+enchantment.lootBonusFishing.desc=Increases rate of good loot (Enchanted Books, etc.).
+# Lure
+enchantment.fishingSpeed.desc=Decreases time for bites.
+
+# ChromatiCraft
+# Aggro Mask
+enchantment.chroma.aggromask.desc=Unsurprisingly, one of the fastest ways to anger any creature in the world is to attack them. It makes sense, but what if you could somehow deal that damage without them being any the wiser? Even better, you would be able to kill the nether pigmen without being swarmed by ten of them.
+# Air Miner
+enchantment.chroma.airminer.desc=Though you long ago achieved the ability to fly - either by strapping rockets to your back or via more magical means - the fact that your ability to mine blocks is greatly impeded while in flight is an endless annoyance. Stabilizing your tool should help fix that.
+# Area Strike
+enchantment.chroma.weaponaoe.desc=Your sword of an unbreakable alloy of metal and the world's very foundation is wonderful, but even it is somewhat outmatched should you find yourself in the midst of a crowd. With some luck, that will no longer be an obstacle.
+# Armor Breach
+enchantment.chroma.phasing.desc=Combat becomes somewhat pointless when both you and your opponent have nigh-impenetrable armor or magic energy shields upon which you can unload every weapon you have and never make a scratch. You may not have the means to disable said protection outright (nor would that go over well with those relying on such protection), but if you could focus a portion of your damage so it can punch through...
+# Capital Strike
+enchantment.chroma.bosskill.desc=Over the course of your exploits, you have run across a small handful of creatures - often found deep in mysterious structures or guarding over some alien realm - that are an enormous hassle to kill as they seem to be able to soak up inordinate amounts of damage. You might be able to specialize a tool to take these creatures down, at the cost of utility on more ordinary creatures.
+# Consistent Efficiency
+enchantment.chroma.minetime.desc=The efficiency enchantment is useful for mining obsidian and the green stone from which some sadist carved a maze, but in accelerating the mining of those materials, your tool is now unusuably powerful for more mundane terrain. Indeed, a simple tap on a wall of limestone, netherrack, or sandstone and you have a hole that looks like you tried decorating with live TNT. With some refinement, that effect can be mitigated.
+# Durability Leech
+enchantment.chroma.userepair.desc=You put your heart, soul, half your platinum and who knows how much experience into the ultimate weapon, but the damn thing has a durability of 200 uses and you almost want to never use it. Perhaps if you could leech some of the health off the mobs you kill to heal your weapon.
+# Ender Lock
+enchantment.chroma.enderlock.desc=Ranged weapons like bows are extremely convenient, letting you kill a mob at a safe distance, but they have long been unable to deal any damage to Endermen, who just mockingly teleport away. Time to put an end to that.
+# Enhanced Utility
+enchantment.chroma.harvestlevel.desc=Wood mines stone. Stone mines iron. Iron mines diamond. Diamond mines obsidian. This progression is indelibly set into nearly everyone's mind. Now you get to break it.
+# Identity Retention #NYI#
+enchantment.chroma.datakeep.desc=Silk Touch but better!
+# Inventory Insertion
+enchantment.chroma.autocollect.desc=More than once you have delighted in a rare find deep in a cave, then upon mining the valuable ore, finding out too late that it was directly adjacent to lava and watching helplessly as the items are incinerated. Carefully digging out the surroundings first is an unacceptable amount of work - you want something that will instead make the contents of the blocks you mine automatically enter your inventory.
+# Reposession
+enchantment.chroma.rareloot.desc=Looting III helps, sure, but it seems to do little for some particularly uncommon drops, including heads, equipment, and the occasional metal ingot. This may not help improve your yields of gunpowder, string, or blaze rods, but it will help with the rarer ones.
+# Submergence
+enchantment.chroma.fastsink.desc=You wish to build a base out of the dark stone that forms geodes across the ocean floor, but having to dive for it from the surface - and expend half your air just on the way down - severely hampers its acquisition. You would not have thought one would want to sink like a rock, but apparently you now do.
+
+# CoFH Core
+# Holding
+enchant.cofh.holding.desc=Increases the storage capacity of certain items and blocks that store things.
+# Multishot
+enchant.cofh.multishot.desc=Shoots multiple arrows at once, at the cost of only one arrow.
+
+# Draconic Evolution
+# Reaper
+enchantment.draconicevolution.reaperEnchant.desc=Killing a mob has a chance of dropping a corresponding Mob Soul.
+
+# EnderCore
+# Auto-Smelt
+enchantment.autosmelt.desc=Blocks mined will have their drops instantly smelted, as if processed by a Furnace.
+# XP Boost
+enchantment.xpboost.desc=Increases the amount of experience dropped by killing mobs or players or by breaking blocks by a percentage.
+
+# EnderIO
+# Soulbound
+enchantment.enderio.soulBound.desc=Keeps the item in the inventory upon death.
+
+# EnderZoo
+# Decay
+enchantment.enderzoo.witherWeapon.desc=Applies the Withering effect to attacked entities.
+# Withering
+enchantment.enderzoo.witherArrow.desc=Applies the Withering effect to attacked entities.
+
+# Forbidden Magic
+# Capitalist
+enchantment.greedy.desc=Causes hostile mobs to rarely drop Emerald Fragments, and Villagers to always drop Emeralds.
+# Consuming
+enchantment.consuming.desc=Allows tools to void Cobblestone, Dirt, Gravel, and Netherrack when mining them.
+# Corrupting
+enchantment.corrupting.desc=Allows obtaining Nether Shards instead of normal Shards when mining Infused Stone.
+# Educational
+enchantment.educational.desc=Increases the XP dropped from hostile mobs.
+# Fiery Core
+enchantment.cluster.desc=When mining ore, adds the chance to drop an Ore Cluster instead of the ore's usual drops.
+# Impact
+enchantment.impact.desc=Allows the tool to mine in a 3x3 area.
+# Voidtouched
+enchantment.voidtouched.desc=Recharges an item's durability, at the cost of the sanity of its user.
+# Wrath
+enchantment.wrath.desc=Increases the overall damage output of a weapon, much like Sharpness.
+
+# Gadomancy
+# Thaumic Sight
+gadomancy.enchantment.revealer.desc=Allows helmet to act as Goggles of Revealing.
+
+# OpenBlocks
+# Flim Flam
+enchantment.openblocks.flimflam.desc=Brings "bad luck" to anything that attacks the user.
+# Last Stand
+enchantment.openblocks.laststand.desc=When the user is at half a heart, instead of dying from the next blow, it uses experience to absorb damage.
+# Unstable
+enchantment.openblocks.explosive.desc=When taking damage, Gunpowder will be consumed to create an explosion that damages mobs and blocks.
+
+# ProjectRed
+# Fuel Efficiency #NYI#
+enchantment.projectred.expansion.fuel_efficiency.desc=???
+
+# RailCraft
+# Desctruction
+enchantment.railcraft.crowbar.destruction.desc=Wide area deconstruction of blocks.
+# Implosion
+enchantment.railcraft.crowbar.implosion.desc=Bonus damage against creepers.
+# Wrecking
+enchantment.railcraft.crowbar.wrecking.desc=Bonus damage.
+
+# Runic Dungeons
+# Flaming Spikes #NYI#
+enchantment.fireThorns.desc=FIRE THORNS
+# Magic Resistance #NYI#
+enchantment.magicProtection.desc=MAGIC PROTECTION
+# Poisonous Barbs #NYI#
+enchantment.poisonThorns.desc=POISON THORNS
+# Retaliatory Kick #NYI#
+enchantment.knockbackThorns.desc=KNOCKBACK THORNS
+
+# Simply Jetpacks
+# Fuel Efficiency
+simplyjetpacks.enchantment.fuelEfficiency.desc=Decreases fuel usage of a jetpack or flux pack when flying or being damaged.
+
+# Thaumcraft
+# Haste
+enchantment.haste.desc=Increases walking speed.
+# Repair
+enchantment.repair.desc=Slowly repairs the item with Vis from the local aura.
+
+# Thaumic Exploration
+# Binding
+enchantment.binding.desc=At level I, slows down mobs hit. At level II, prevents Endermen from teleporting and Creepers from exploding.
+# Disarming
+enchantment.disarm.desc=Attacked enemies have a chance to drop their weapons.
+# Night Vision
+enchantment.nightVision.desc=Permanent Night Vision potion effect.
+
+# Thaumic Tinkerer
+# Ascent Boost
+enchantment.ttinkerer:ascentBoost.desc=Allows the wearer to jump much higher.
+# Disintegrate
+enchantment.ttinkerer:desintegrate.desc=Increases the mining speed of common blocks, but decreases the mining speed of and is more easily damaged by stronger blocks.
+# Dispersed Strike
+enchantment.ttinkerer:dispersedStrike.desc=Increases the damage of the first strike to a mob, but decreases the damage of consecutive strikes to the same mob.
+# Final Strike
+enchantment.ttinkerer:finalStrike.desc=Chance to triple the amount of damage dealt.
+# Flaming Touch
+enchantment.ttinkerer:autoSmelt.desc=Increases the mining speed of wooden blocks, but decreases the mining speed of and is more easily damaged by non-wooden blocks.
+# Focused Strike
+enchantment.ttinkerer:focusedStrike.desc=Increases the damage of consecutive strikes to a mob, but decreases the damage of the initial strike.
+# Pounce
+enchantment.ttinkerer:pounce.desc=Increases damage while midair.
+# Quick Draw
+enchantment.ttinkerer:quickDraw.desc=Decreases draw time.
+# Shatter
+enchantment.ttinkerer:shatter.desc=Increases the mining speed of strong blocks, but decreases the mining speed of and is more easily damaged by more common blocks.
+# Shockwave
+enchantment.ttinkerer:shockwave.desc=Damages nearby entities when hitting the ground after a long fall.
+# Slow Fall
+enchantment.ttinkerer:slowFall.desc=Decreases fall speed, and negates fall damage.
+# Tunnel
+enchantment.ttinkerer:tunnel.desc=Gradually increasing mining speed of blocks mined in a straight line.
+# Valiance
+enchantment.ttinkerer:valiance.desc=Deals more damage when the user is at low health.
+# Vampirism
+enchantment.ttinkerer:vampirism.desc=Heals the user upon striking an enemy.
+
+# Witching Gadgets
+# Backstabbing
+enchantment.wg.backstab.desc=Increases damage when attacking from behind.
+# Brilliance
+enchantment.wg.gemstonePotency.desc=Strengthens the gemstone's effect.
+# Brittle
+enchantment.wg.gemstoneBrittle.desc=Weakens the gemstone's effect.
+# Stealth
+enchantment.wg.stealth.desc=Decreases the chance the user is noticed while sneaking.
+# Throwoff
+enchantment.wg.rideProtect.desc=Damages and knocks back Eldritch Crabs when they try to jump on the user's head.
+# Translucency
+enchantment.wg.invisibleGear.desc=Renders armor invisible.
+# Unveiling
+enchantment.wg.unveiling.desc=Makes invisible entities visible.
+
+# BiblioCraft (overrides getName())
+# Eternal Compass
+Eternal Compass.desc=Does nothing?
+enchant.deathcompass.desc=Does nothing?
+# Reading
+Reading.desc=Allows helmet to act as Reading Glasses.
+enchant.reading.desc=Allows helmet to act as Reading Glasses.
