@@ -1,0 +1,5 @@
+compatenchants.item=Item: %1$s
+compatenchants.current=-- Current Enchantments --
+compatenchants.compatible=-- Compatible Enchantments --
+compatenchants.incompatible=-- Incompatible Enchantments --
+compatenchants.unenchantable="%1$s" cannot be enchanted
